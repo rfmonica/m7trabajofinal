@@ -8,7 +8,8 @@ import Home from '../pages/Home.js';
 
 const AppRoutes = () => {
   return (
-    <Router>
+    
+      <Router basename="/m7trabajofinal">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ejercicio1" element={<Ejercicio1 />} />
